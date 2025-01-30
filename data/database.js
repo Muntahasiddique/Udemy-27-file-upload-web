@@ -4,7 +4,7 @@ let database;
 async function connect() {
   const client = await MongoClient.connect('mongodb+srv://muntahamirza890:dbMuntahaPass@mydb.bcxy0.mongodb.net/');
 
-  database = client.db('blog');
+  database = client.db('file-demo');
   }
 
 function getDb() {
